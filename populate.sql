@@ -21,7 +21,7 @@ VALUES
     (7, 'Lionhead Studios');
 
 -- Заповнення таблиці Video_Game
-INSERT INTO Video_Game (Index, Name, Platform, Year_of_Release, Genre, Publisher_ID, Developer_ID, Critic_Score, Critic_Count, User_Score, User_Count, Rating)
+INSERT INTO Video_Game (Indexx, Name, Platform, Year_of_Release, Genre, Publisher_ID, Developer_ID, Critic_Score, Critic_Count, User_Score, User_Count, Rating)
 VALUES
     (6, 'New Super Mario Bros.', 'DS', 2006, 'Platform', 1, 1, 89.0, 65, 8.5, 431, 'E'),
     (17, 'Grand Theft Auto: San Andreas', 'PS2', 2004, 'Action', 2, 2, 95.0, 80, 9.0, 1588, 'M'),
@@ -32,7 +32,7 @@ VALUES
     (265, 'Fable II', 'X360', 2008, 'Role-Playing', 7, 7, 89.0, 95, 6.5, 2423, 'M');
 
 -- Заповнення таблиці Sales_Info
-INSERT INTO Sales_Info (Sale_ID, Index, Region, Sales_in_Millions)
+INSERT INTO Sales_Info (Sale_ID, Indexx, Region, Sales_in_Millions)
 VALUES
     (1, 6, 'NA', 11.28),
     (2, 6, 'EU', 9.14),
@@ -65,7 +65,7 @@ VALUES
 
 
 -- Заповнення таблиці Global_Sales
-INSERT INTO Global_Sales (Index, Global_Sales_in_Millions)
+INSERT INTO Global_Sales (Indexx, Global_Sales_in_Millions)
 VALUES
     (6, 29.8),
     (17, 20.81),
